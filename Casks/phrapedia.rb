@@ -1,15 +1,16 @@
 cask "phrapedia" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.0"
-  sha256 arm:   "39c70dcec22f3b0d0ffe89c84356365d253641aa1eff5fefab25242eb7469f2c",
-         intel: "47ad7a3bd09b38174fa925cbd85e95d2e60c14a8b3e147342a8b0fd0b372e1b2"
+  version "0.1.1"
+  sha256 arm:   "856e985bda6cea7bb85f045a4582f011ca7ac17daea4db76b438fd56ec2f2523",
+         intel: "5af1dfadb81166843ca43272beab14b6376589e8ed4d4d709ff104be064a3067"
 
   url "https://github.com/luangpho/phrapedia/releases/download/v#{version}/Phrapedia_#{version}_#{arch}.dmg"
   name "Phrapedia"
   desc "Local-first knowledge base for Thai monks, temples and amulets"
   homepage "https://github.com/luangpho/phrapedia"
 
+  auto_updates true
 
   depends_on formula: "node"
 
