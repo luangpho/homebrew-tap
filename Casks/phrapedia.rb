@@ -1,9 +1,9 @@
 cask "phrapedia" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.1"
-  sha256 arm:   "856e985bda6cea7bb85f045a4582f011ca7ac17daea4db76b438fd56ec2f2523",
-         intel: "5af1dfadb81166843ca43272beab14b6376589e8ed4d4d709ff104be064a3067"
+  version "0.1.2"
+  sha256 arm:   "e13cbec80b0731e211a76e5e725c30dc586ceee79f7a799165fdf3124fb3aac8",
+         intel: "f6da3eab1fe87bb1bd546fdb4c35829516727917be8d9a0d9df6e48d7b2a8790"
 
   url "https://github.com/luangpho/phrapedia/releases/download/v#{version}/Phrapedia_#{version}_#{arch}.dmg"
   name "Phrapedia"
