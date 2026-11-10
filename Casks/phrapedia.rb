@@ -1,9 +1,9 @@
 cask "phrapedia" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.3"
-  sha256 arm:   "639dfdc92c17da58ff6d0971f79ad69a0a9dad74115c755c445c55f0da345a32",
-         intel: "58820b6d605b26e83d5434b309d450472b4ee06e0315f644a76e029165e33667"
+  version "0.2.0"
+  sha256 arm:   "ef25ff24885cf284d21b33d034e03b6c934c44498fb16f97d0b18d25058b0f2f",
+         intel: "e8fae6d1ea65be1d04a9fd53183546f970201fd1d488128460d906642a16a503"
 
   url "https://github.com/luangpho/phrapedia/releases/download/v#{version}/Phrapedia_#{version}_#{arch}.dmg"
   name "Phrapedia"
@@ -11,8 +11,6 @@ cask "phrapedia" do
   homepage "https://github.com/luangpho/phrapedia"
 
   auto_updates true
-
-  depends_on formula: "node"
 
   app "Phrapedia.app"
 
